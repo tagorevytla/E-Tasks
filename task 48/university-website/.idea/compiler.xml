@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/university/ShowAllUniversitiesRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/addstudent/ShowAllStudentsRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/removestudent/RemoveStudentRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/university/AddUniversityRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/university/UniversityStatisticsRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-repository/src/main/java/com/balazsholczer/repository/addstudent/AddStudentRepository.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/removestudent/RemoveStudentServiceImpl.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/adduniversity/AddUniversityServiceImpl.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/showuniversities/ShowAllUniversitiesServiceImpl.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/universitystats/UniversityStatsServiceImpl.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/showstudents/ShowStudentsServiceImpl.java" />
+      <file url="file://$PROJECT_DIR$/univers-service/src/main/java/com/balazsholczer/service/addstudent/AddStudentServiceImpl.java" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="univers-model" />
+        <module name="univers-repository" />
+        <module name="univers-service" />
+        <module name="univers-ui" />
+        <module name="univers-utils" />
+        <module name="univers-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="univers" target="1.6" />
+      <module name="univers-model" target="1.6" />
+      <module name="univers-repository" target="1.6" />
+      <module name="univers-service" target="1.6" />
+      <module name="univers-ui" target="1.6" />
+      <module name="univers-utils" target="1.6" />
+      <module name="univers-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
